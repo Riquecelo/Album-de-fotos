@@ -28,7 +28,7 @@ class PhotoGallery{
 
     async getImg(){
         this.loadMore.setAttribute('data-img', 'curated');
-        const baseURL ='https://api.pexels.com/v1/curated?page=&per_page=12';
+        const baseURL ='https://api.pexels.com/v1/search?query=nature&per_page=12';
         const data = await this.fetchImages(baseURL);
         this.GenerateHTML(data.photos)
        // console.log(data);
@@ -62,7 +62,7 @@ class PhotoGallery{
     }
 
     async getMoreSearchedImages(index){
-        const baseURL = `https://api.pexels.com/v1/search?query=${this.searchValueGlobal}&page=${index}&per_page=12`
+        const baseURL = `https://api.pexels.com/v1/search?query=&per_page=12`
         const data = await this.fetchImages(baseURL);
         //console.log(data)
         this.GenerateHTML(data.photos);
