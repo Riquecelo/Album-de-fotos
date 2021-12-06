@@ -11,6 +11,12 @@ Teste Front-End, consiste em criar um site estilo Álbum de Fotos consumindo uma
 #### API utilizada
 ![](https://github.com/Riquecelo/TesteLeadster/blob/main/img/pexels.png)<br>
 
+|||
+|---- |-----|
+|🔹 É exibido o nome dos fotógrafos no efeito hover das imagens <br> 🔹 O título no cabeçalho da página funciona como um botão que limpa a tela para a quantidade de imagens original <br> 🔹 O botão no rodapé carrega mais images | ![](https://github.com/Riquecelo/TesteLeadster/blob/main/img/telaAlbumFotos.png)|
+
 ## Confira o resultado do teste clicando no botão abaixo
 [![](https://img.shields.io/badge/%E2%96%B6%EF%B8%8F-AQUI%20%EF%B8%8F-blue?style=for-the-badge)](https://riquecelo.github.io/TesteLeadster/)
+
+
 
